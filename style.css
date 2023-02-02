@@ -154,3 +154,13 @@ h2 {
   background: #4285f4;
   color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+
+  .pass-settings .options .option {
+    width: 100%;
+  }
+}
